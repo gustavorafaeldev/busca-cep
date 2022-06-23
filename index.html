@@ -11,14 +11,15 @@
     <header>Consumo API CORREIOS</header>
     <form>
         <div class="buscacep">
-            <input type="number" name="buscacep" placeholder="Digite o CEP (Apenas números)">
+            <input type="number" name="buscacep" onfocusout="myFunction()" placeholder="Digite o CEP (Apenas números)">
         </div>
         <div class="rest--formulario">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
+            <input type="text" id="cep">
+            <input type="text" id="logadouro">
+            <input type="text" id="bairro">
+            <input type="text" id="cidade">
+            <input type="text" id="estado">
+            
         </div>
     </form>
 
